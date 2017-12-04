@@ -28,9 +28,9 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle9 = new System.Windows.Forms.DataGridViewCellStyle();
             this.label1 = new System.Windows.Forms.Label();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.id = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -108,27 +108,27 @@
             // 
             // talla
             // 
-            dataGridViewCellStyle4.Format = "N1";
-            dataGridViewCellStyle4.NullValue = null;
-            this.talla.DefaultCellStyle = dataGridViewCellStyle4;
+            dataGridViewCellStyle7.Format = "N1";
+            dataGridViewCellStyle7.NullValue = null;
+            this.talla.DefaultCellStyle = dataGridViewCellStyle7;
             this.talla.HeaderText = "Talla";
             this.talla.Name = "talla";
             this.talla.Width = 56;
             // 
             // existencias
             // 
-            dataGridViewCellStyle5.Format = "N0";
-            dataGridViewCellStyle5.NullValue = null;
-            this.existencias.DefaultCellStyle = dataGridViewCellStyle5;
+            dataGridViewCellStyle8.Format = "N0";
+            dataGridViewCellStyle8.NullValue = null;
+            this.existencias.DefaultCellStyle = dataGridViewCellStyle8;
             this.existencias.HeaderText = "Existencias";
             this.existencias.Name = "existencias";
             this.existencias.Width = 85;
             // 
             // precio
             // 
-            dataGridViewCellStyle6.Format = "N0";
-            dataGridViewCellStyle6.NullValue = null;
-            this.precio.DefaultCellStyle = dataGridViewCellStyle6;
+            dataGridViewCellStyle9.Format = "N0";
+            dataGridViewCellStyle9.NullValue = null;
+            this.precio.DefaultCellStyle = dataGridViewCellStyle9;
             this.precio.HeaderText = "Precio";
             this.precio.Name = "precio";
             this.precio.Width = 63;
@@ -147,7 +147,7 @@
             // 
             this.button2.BackColor = System.Drawing.Color.YellowGreen;
             this.button2.Font = new System.Drawing.Font("Arial Unicode MS", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(4, 228);
+            this.button2.Location = new System.Drawing.Point(4, 227);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(130, 81);
             this.button2.TabIndex = 22;
