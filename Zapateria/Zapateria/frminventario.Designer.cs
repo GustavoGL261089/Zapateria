@@ -28,9 +28,9 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
             this.label1 = new System.Windows.Forms.Label();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.id = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -54,7 +54,7 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Arial Black", 28F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.World);
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
-            this.label1.Location = new System.Drawing.Point(187, 34);
+            this.label1.Location = new System.Drawing.Point(187, 70);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(173, 40);
             this.label1.TabIndex = 0;
@@ -108,27 +108,27 @@
             // 
             // talla
             // 
-            dataGridViewCellStyle1.Format = "N1";
-            dataGridViewCellStyle1.NullValue = null;
-            this.talla.DefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle4.Format = "N1";
+            dataGridViewCellStyle4.NullValue = null;
+            this.talla.DefaultCellStyle = dataGridViewCellStyle4;
             this.talla.HeaderText = "Talla";
             this.talla.Name = "talla";
             this.talla.Width = 56;
             // 
             // existencias
             // 
-            dataGridViewCellStyle2.Format = "N0";
-            dataGridViewCellStyle2.NullValue = null;
-            this.existencias.DefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle5.Format = "N0";
+            dataGridViewCellStyle5.NullValue = null;
+            this.existencias.DefaultCellStyle = dataGridViewCellStyle5;
             this.existencias.HeaderText = "Existencias";
             this.existencias.Name = "existencias";
             this.existencias.Width = 85;
             // 
             // precio
             // 
-            dataGridViewCellStyle3.Format = "N0";
-            dataGridViewCellStyle3.NullValue = null;
-            this.precio.DefaultCellStyle = dataGridViewCellStyle3;
+            dataGridViewCellStyle6.Format = "N0";
+            dataGridViewCellStyle6.NullValue = null;
+            this.precio.DefaultCellStyle = dataGridViewCellStyle6;
             this.precio.HeaderText = "Precio";
             this.precio.Name = "precio";
             this.precio.Width = 63;
