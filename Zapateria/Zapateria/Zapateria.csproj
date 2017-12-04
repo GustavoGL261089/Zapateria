@@ -1,0 +1,191 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{03FE00B5-66BB-488D-AA23-6720839D19FD}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Zapateria</RootNamespace>
+    <AssemblyName>Zapateria</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MySql.Data, Version=6.9.5.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Conexion.cs" />
+    <Compile Include="frmnueva_compra.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmnueva_compra.Designer.cs">
+      <DependentUpon>frmnueva_compra.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmmenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmmenu.Designer.cs">
+      <DependentUpon>frmmenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frminventario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frminventario.Designer.cs">
+      <DependentUpon>frminventario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmalta_zapatos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmalta_zapatos.Designer.cs">
+      <DependentUpon>frmalta_zapatos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmlogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmlogin.Designer.cs">
+      <DependentUpon>frmlogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmusuarionew.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmusuarionew.Designer.cs">
+      <DependentUpon>frmusuarionew.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmventas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmventas.Designer.cs">
+      <DependentUpon>frmventas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmventa_completa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmventa_completa.Designer.cs">
+      <DependentUpon>frmventa_completa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Lista.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frmnueva_compra.resx">
+      <DependentUpon>frmnueva_compra.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmmenu.resx">
+      <DependentUpon>frmmenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frminventario.resx">
+      <DependentUpon>frminventario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmalta_zapatos.resx">
+      <DependentUpon>frmalta_zapatos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmlogin.resx">
+      <DependentUpon>frmlogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmusuarionew.resx">
+      <DependentUpon>frmusuarionew.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmventas.resx">
+      <DependentUpon>frmventas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmventa_completa.resx">
+      <DependentUpon>frmventa_completa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\unknown_user.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user-group-new.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\10928685_10205630697190687_1343706150_n.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\experiencia-de-usuario.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\login.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\foro-de-los-de-los-usuarios-icono-8097-96.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icono_ventas_prevencion.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ventas_icono.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1211782254.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
